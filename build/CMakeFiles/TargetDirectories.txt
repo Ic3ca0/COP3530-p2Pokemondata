@@ -1,0 +1,3 @@
+C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build/CMakeFiles/pokemon_app.dir
+C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build/CMakeFiles/edit_cache.dir
+C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build/CMakeFiles/rebuild_cache.dir
