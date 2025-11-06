@@ -7,20 +7,8 @@ void loadPokemonCSV(const string& fileName, PokemonHashMap& map);
 
 int main() {
     PokemonHashMap pokedex(256, 0.75f);
+    
     loadPokemonCSV("../data/Pokemon.csv", pokedex);
-
-    if (Pokemon* c = pokedex.search(6)) {
-        std::cout << "Found #" << c->id << ": " << c->name
-                  << " (" << c->type1
-                  << (c->type2.empty() ? "" : "/" + c->type2)
-                  << "), SpAtk=" << c->spAtk << ", Spd=" << c->spd << "\n";
-    } else {
-        std::cout << "Could not find #6.\n";
-    }
-
-    pokedex.erase(25);
-    std::cout << (pokedex.search(25) ? "Pikachu still present?!\n"
-                                     : "Pikachu (#25) removed (expected).\n");
 
     return 0;
 }
