@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
   "CMakeFiles/pokemon_app.dir/src/main.cpp.obj.d"
-  "CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj"
-  "CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj.d"
+  "CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj"
+  "CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj.d"
   "libpokemon_app.dll.a"
   "pokemon_app.exe"
   "pokemon_app.exe.manifest"

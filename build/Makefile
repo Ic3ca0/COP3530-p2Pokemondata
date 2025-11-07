@@ -152,29 +152,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/pokemon.obj: src/pokemon.cpp.obj
-.PHONY : src/pokemon.obj
+src/pokedex.obj: src/pokedex.cpp.obj
+.PHONY : src/pokedex.obj
 
 # target to build an object file
-src/pokemon.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj
-.PHONY : src/pokemon.cpp.obj
+src/pokedex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj
+.PHONY : src/pokedex.cpp.obj
 
-src/pokemon.i: src/pokemon.cpp.i
-.PHONY : src/pokemon.i
+src/pokedex.i: src/pokedex.cpp.i
+.PHONY : src/pokedex.i
 
 # target to preprocess a source file
-src/pokemon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokemon.cpp.i
-.PHONY : src/pokemon.cpp.i
+src/pokedex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.i
+.PHONY : src/pokedex.cpp.i
 
-src/pokemon.s: src/pokemon.cpp.s
-.PHONY : src/pokemon.s
+src/pokedex.s: src/pokedex.cpp.s
+.PHONY : src/pokedex.s
 
 # target to generate assembly for a file
-src/pokemon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokemon.cpp.s
-.PHONY : src/pokemon.cpp.s
+src/pokedex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.s
+.PHONY : src/pokedex.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/pokemon.obj
-	@echo ... src/pokemon.i
-	@echo ... src/pokemon.s
+	@echo ... src/pokedex.obj
+	@echo ... src/pokedex.i
+	@echo ... src/pokedex.s
 .PHONY : help
 
 

@@ -85,30 +85,30 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/src/main.cpp.s"
 	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\main.cpp" -o CMakeFiles\pokemon_app.dir\src\main.cpp.s
 
-CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/src/pokemon.cpp
-CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj -MF CMakeFiles\pokemon_app.dir\src\pokemon.cpp.obj.d -o CMakeFiles\pokemon_app.dir\src\pokemon.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokemon.cpp"
+CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
+CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/src/pokedex.cpp
+CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj"
+	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj -MF CMakeFiles\pokemon_app.dir\src\pokedex.cpp.obj.d -o CMakeFiles\pokemon_app.dir\src\pokedex.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokedex.cpp"
 
-CMakeFiles/pokemon_app.dir/src/pokemon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/src/pokemon.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokemon.cpp" > CMakeFiles\pokemon_app.dir\src\pokemon.cpp.i
+CMakeFiles/pokemon_app.dir/src/pokedex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/src/pokedex.cpp.i"
+	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokedex.cpp" > CMakeFiles\pokemon_app.dir\src\pokedex.cpp.i
 
-CMakeFiles/pokemon_app.dir/src/pokemon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/src/pokemon.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokemon.cpp" -o CMakeFiles\pokemon_app.dir\src\pokemon.cpp.s
+CMakeFiles/pokemon_app.dir/src/pokedex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/src/pokedex.cpp.s"
+	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\pokedex.cpp" -o CMakeFiles\pokemon_app.dir\src\pokedex.cpp.s
 
 # Object files for target pokemon_app
 pokemon_app_OBJECTS = \
 "CMakeFiles/pokemon_app.dir/src/main.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj"
+"CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj"
 
 # External object files for target pokemon_app
 pokemon_app_EXTERNAL_OBJECTS =
 
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/src/main.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/src/pokemon.cpp.obj
+pokemon_app.exe: CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/build.make
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/linkLibs.rsp
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/objects1.rsp

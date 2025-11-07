@@ -1,0 +1,163 @@
+#include "../include/pokedex.h"
+
+/* Helpers */
+//  - Converts to strings to lowercase only
+//  - Used in lookups
+string Pokedex::lower(string s) const {
+    for (size_t i = 0; i < s.size(); i++)
+        s[i] = tolower((unsigned char)s[i]);
+    return s;
+}
+//  - Converts to lowercase and trims
+//  - Used in insertions
+string Pokedex::normalize(string s) {
+    // Trim leading/trailing whitespaces
+    auto start = s.find_first_not_of(" \t\n\r\f\v");
+    auto end = s.find_last_not_of(" \t\n\r\f\v");
+
+    if (start == string::npos) // String is all whitespace/empty
+        return "";
+
+    s = s.substr(start, end - start + 1);
+
+    // Lowercase
+    return lower(s);
+}
+void Pokedex::removeFromVector(vector<int>& v, int id) {
+    // Replace w/ last element, then shrink
+    for (size_t i = 0; i < v.size(); i++) {
+        if (v[i] == id) {
+            v[i] = v.back();
+            v.pop_back();
+            return;
+        }
+    }
+}
+
+/* Core Functions */
+bool Pokedex::upsert(const Pokemon& p) {
+    bool inserted = idMap.insert(p.id, p);
+    const Pokemon* ptr = idMap.search(p.id);
+    if (!ptr) return inserted; // Should be false
+
+    // Normalize for consistency/safety
+    string nm = normalize(ptr->name);
+    string t1 = normalize(ptr->type1);
+    string t2 = normalize(ptr->type2);
+
+    // Update name hashmap
+    auto vec = nameIdx.search(nm);
+    // Separate Chaining Collision
+    if (vec) {
+        // If that ID isn't there (indicating a different form, then add)
+        if (find(vec->begin(), vec->end(), ptr->id) == vec->end())
+            vec->push_back(ptr->id);
+    // Otherwise, create new one
+    } else 
+        nameIdx.insert(nm, vector<int>{ptr->id});
+
+    // Update type hashmap
+    if (!t1.empty()) {
+        auto vec = typeIdx.search(t1);
+        if (vec) {
+            if (find(vec->begin(), vec->end(), ptr->id) == vec->end())
+                vec->push_back(ptr->id);
+        } else 
+            typeIdx.insert(t1, vector<int>{ptr->id});
+    }
+    if (!t2.empty()) {
+        auto vec = typeIdx.search(t2);
+        if (vec) {
+            if (find(vec->begin(), vec->end(), ptr->id) == vec->end())
+                vec->push_back(ptr->id);
+        } else
+            typeIdx.insert(t2, vector<int>{ptr->id});
+    }
+
+    return inserted;
+}
+bool Pokedex::erase(int id) {
+    const Pokemon* p = idMap.search(id);
+    if (!p) return false;
+
+    // Remove from secondary indexes 1st
+    string nm = lower(p->name);
+    if (auto vec = nameIdx.search(nm))
+        removeFromVector(*vec, id);
+    string t1 = lower(p->type1);
+    if (auto vec = typeIdx.search(t1))
+        removeFromVector(*vec, id);
+    string t2 = lower(p->type2);
+    if (auto vec = typeIdx.search(t2))
+        removeFromVector(*vec, id);
+
+    // Remove from main index 2nd
+    return idMap.erase(id);
+}
+
+/* Queries */
+const Pokemon* Pokedex::byId(int id) {
+    return idMap.search(id);
+}
+vector<const Pokemon*> Pokedex::byName(const string& name) {
+    vector<const Pokemon*> results;
+    string key = lower(name);
+
+    // Collect IDs linked to that name
+    if (auto ids = nameIdx.search(key)) {
+        // Save memory
+        results.reserve(ids->size());
+        // Find matching ID in main map
+        for (int id : *ids)
+            if (auto p = idMap.search(id))
+                results.push_back(p);
+    }
+    return results;
+}
+vector<const Pokemon*> Pokedex::byType(const string& name) {
+    vector<const Pokemon*> results;
+    string key = lower(name);
+    if (auto ids = typeIdx.search(key)) {
+        results.reserve(ids->size());
+        for (int id : *ids)
+            if (auto p = idMap.search(id))
+                results.push_back(p);
+    }
+    return results;
+}
+
+/* File Input */
+bool Pokedex::loadFromCSV(const string& path) {
+    ifstream file(path);
+    if (!file.is_open()) return false;
+
+    string line;
+    getline(file, line);
+
+    while (getline(file, line)) {
+        if (line.empty()) continue;
+
+        stringstream ss(line);
+        Pokemon p;
+        string cell; // Placeholder for integer values
+
+        // Parse through each column
+        getline(ss, cell, ','); p.id = stoi(cell);
+        getline(ss, p.name, ',');
+        getline(ss, p.form, ',');
+        getline(ss, p.type1, ',');
+        getline(ss, p.type2, ',');
+        getline(ss, cell, ','); p.total = stoi(cell);
+        getline(ss, cell, ','); p.hp = stoi(cell);
+        getline(ss, cell, ','); p.atk = stoi(cell);
+        getline(ss, cell, ','); p.def = stoi(cell);
+        getline(ss, cell, ','); p.spAtk = stoi(cell);
+        getline(ss, cell, ','); p.spDef = stoi(cell);
+        getline(ss, cell, ','); p.spd = stoi(cell);
+        getline(ss, cell, ','); p.gen = stoi(cell);
+
+        upsert(p);
+    }
+    file.close();
+    return true;
+}

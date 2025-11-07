@@ -2,6 +2,9 @@
     "files.associations": {
         "deque": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "iostream": "cpp",
+        "sstream": "cpp",
+        "unordered_map": "cpp"
     }
 }
