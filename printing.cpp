@@ -77,45 +77,51 @@ void printBuild(const Build& b) {
 }
 
 void maybeShowBuildsForPokemon(const Pokemon& p, const BuildIndex& buildIndex) {
-    cout << "See competitive builds for " << p.name << "? (y/n): ";
+    std::cout << "See competitive builds for " << p.name << "? (y/n): ";
     char ans;
-    if (!(cin >> ans)) return;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    if (!(std::cin >> ans)) return;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     if (ans == 'y' || ans == 'Y') {
-        auto builds = buildIndex.findByPokemonId(p.id);
+        auto builds = timedCall("B+Tree: buildsByPokemonId", [&]{
+            return buildIndex.findByPokemonId(p.id);
+        });
+
         if (builds.empty()) {
-            cout << "No builds found for " << p.name << ".\n\n";
+            std::cout << "No builds found for " << p.name << ".\n\n";
         } else {
-            cout << "Found " << builds.size()
-                 << " builds for " << p.name << ":\n\n";
+            std::cout << "Found " << builds.size()
+                      << " builds for " << p.name << ":\n\n";
             for (const PokemonBuild* b : builds) {
                 printBuild(*b);
             }
         }
     } else {
-        cout << "\n";
+        std::cout << "\n";
     }
 }
 
 void maybeShowBuildsForPokemon(const hPokemon& p, BuildDex& buildDex) {
-    cout << "See competitive builds for " << p.name << "? (y/n): ";
+    std::cout << "See competitive builds for " << p.name << "? (y/n): ";
     char ans;
-    if (!(cin >> ans)) return;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    if (!(std::cin >> ans)) return;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     if (ans == 'y' || ans == 'Y') {
-        auto builds = buildDex.byId(p.id);
+        auto builds = timedCall("HashMap: buildsByPokemonId", [&]{
+            return buildDex.byId(p.id);
+        });
+
         if (builds.empty()) {
-            cout << "No builds found for " << p.name << ".\n\n";
+            std::cout << "No builds found for " << p.name << ".\n\n";
         } else {
-            cout << "Found " << builds.size()
-                 << " builds for " << p.name << ":\n\n";
+            std::cout << "Found " << builds.size()
+                      << " builds for " << p.name << ":\n\n";
             for (const Build* b : builds) {
                 printBuild(*b);
             }
         }
     } else {
-        cout << "\n";
+        std::cout << "\n";
     }
 }
