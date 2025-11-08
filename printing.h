@@ -4,6 +4,7 @@
 #include "pokemon_index.h"
 #include "build_index.h"
 #include "pokedex.h"
+#include "timing.h"
 
 // Printing helpers
 void printPokemon(const Pokemon& p);
