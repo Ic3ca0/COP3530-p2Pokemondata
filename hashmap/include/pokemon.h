@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-struct Pokemon {
+struct hPokemon {
     int id = -1;
     string name;
     string form;

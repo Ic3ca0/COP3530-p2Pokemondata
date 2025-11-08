@@ -3,6 +3,6 @@
 #include "pokemon.h"
 #include "build.h"
 
-void printPokemon(const Pokemon& p);
+void printPokemon(const bPokemon& p);
 void printBuild(const PokemonBuild& b);
-void maybeShowBuildsForPokemon(const Pokemon& p, const BuildIndex& buildIndex);
+void maybeShowBuildsForPokemon(const bPokemon& p, const BuildIndex& buildIndex);

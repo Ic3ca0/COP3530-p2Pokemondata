@@ -3,7 +3,7 @@
 #include <iostream>
 #include <limits>
 
-void printPokemon(const Pokemon& p) {
+void printPokemon(const bPokemon& p) {
     std::cout << "ID " << p.id << " - " << p.name;
     if (!p.form.empty()) std::cout << " [" << p.form << "]";
     std::cout << "  Type: " << p.type1;
@@ -37,7 +37,7 @@ void printBuild(const PokemonBuild& b) {
     std::cout << "\n";
 }
 
-void maybeShowBuildsForPokemon(const Pokemon& p, const BuildIndex& buildIndex) {
+void maybeShowBuildsForPokemon(const bPokemon& p, const BuildIndex& buildIndex) {
     std::cout << "See competitive builds for " << p.name << "? (y/n): ";
     char ans;
     if (!(std::cin >> ans)) return;

@@ -45,7 +45,7 @@ int main() {
                 std::cin >> id;
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-                const Pokemon* p = pokemonIndex.findById(id);
+                const bPokemon* p = pokemonIndex.findById(id);
                 if (!p) {
                     std::cout << "No Pokémon with ID " << id << " found.\n";
                     if (pokemonIndex.hasRawId(id)) {
@@ -100,7 +100,7 @@ int main() {
                 } else {
                     std::cout << "Found " << results.size()
                               << " Pokémon of type " << type << ":\n";
-                    for (const Pokemon* p : results) {
+                    for (const bPokemon* p : results) {
                         printPokemon(*p);
                     }
                     std::cout << "\n";

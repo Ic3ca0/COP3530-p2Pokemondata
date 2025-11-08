@@ -35,9 +35,9 @@ void Pokedex::removeFromVector(vector<int>& v, int id) {
 }
 
 /* Core Functions */
-bool Pokedex::upsert(const Pokemon& p) {
+bool Pokedex::upsert(const hPokemon& p) {
     bool inserted = idMap.insert(p.id, p);
-    const Pokemon* ptr = idMap.search(p.id);
+    const hPokemon* ptr = idMap.search(p.id);
     if (!ptr) return inserted; // Should be false
 
     // Normalize for consistency/safety
@@ -77,7 +77,7 @@ bool Pokedex::upsert(const Pokemon& p) {
     return inserted;
 }
 bool Pokedex::erase(int id) {
-    const Pokemon* p = idMap.search(id);
+    const hPokemon* p = idMap.search(id);
     if (!p) return false;
 
     // Remove from secondary indexes 1st
@@ -96,11 +96,11 @@ bool Pokedex::erase(int id) {
 }
 
 /* Queries */
-const Pokemon* Pokedex::byId(int id) {
+const hPokemon* Pokedex::byId(int id) {
     return idMap.search(id);
 }
-vector<const Pokemon*> Pokedex::byName(const string& name) {
-    vector<const Pokemon*> results;
+vector<const hPokemon*> Pokedex::byName(const string& name) {
+    vector<const hPokemon*> results;
     string key = lower(name);
 
     // Collect IDs linked to that name
@@ -114,8 +114,8 @@ vector<const Pokemon*> Pokedex::byName(const string& name) {
     }
     return results;
 }
-vector<const Pokemon*> Pokedex::byType(const string& name) {
-    vector<const Pokemon*> results;
+vector<const hPokemon*> Pokedex::byType(const string& name) {
+    vector<const hPokemon*> results;
     string key = lower(name);
     if (auto ids = typeIdx.search(key)) {
         results.reserve(ids->size());
@@ -138,7 +138,7 @@ bool Pokedex::loadFromCSV(const string& path) {
         if (line.empty()) continue;
 
         stringstream ss(line);
-        Pokemon p;
+        hPokemon p;
         string cell; // Placeholder for integer values
 
         // Parse through each column

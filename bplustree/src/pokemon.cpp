@@ -30,7 +30,7 @@ void PokemonIndex::loadFromCSV(const std::string& path) {
 
         if (cols.size() < 5) continue;
 
-        Pokemon p;
+        bPokemon p;
         p.id   = parseInt(cols[0]);
         if (p.id == 0 && cols[0] != "0") continue; 
 
@@ -58,7 +58,7 @@ void PokemonIndex::loadFromCSV(const std::string& path) {
     }
 }
 
-const Pokemon* PokemonIndex::findById(int id) const {
+const bPokemon* PokemonIndex::findById(int id) const {
     std::size_t idx{};
     if (byId.search(id, idx)) {
         return &data[idx];
@@ -66,16 +66,16 @@ const Pokemon* PokemonIndex::findById(int id) const {
     return nullptr;
 }
 
-std::vector<const Pokemon*> PokemonIndex::findByName(const std::string& name) const {
-    std::vector<const Pokemon*> out;
+std::vector<const bPokemon*> PokemonIndex::findByName(const std::string& name) const {
+    std::vector<const bPokemon*> out;
     auto idxs = byName.searchAll(name);
     out.reserve(idxs.size());
     for (std::size_t i : idxs) out.push_back(&data[i]);
     return out;
 }
 
-std::vector<const Pokemon*> PokemonIndex::findByType(const std::string& type) const {
-    std::vector<const Pokemon*> out;
+std::vector<const bPokemon*> PokemonIndex::findByType(const std::string& type) const {
+    std::vector<const bPokemon*> out;
     auto idxs = byType.searchAll(type);
     out.reserve(idxs.size());
     for (std::size_t i : idxs) out.push_back(&data[i]);
