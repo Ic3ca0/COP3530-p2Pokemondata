@@ -17,6 +17,20 @@ void printPokemon(const bPokemon& p) {
               << ")\n";
 }
 
+void printPokemon(const hPokemon& p) {
+    std::cout << "ID " << p.id << " - " << p.name;
+    if (!p.form.empty()) std::cout << " [" << p.form << "]";
+    std::cout << "  Type: " << p.type1;
+    if (!p.type2.empty()) std::cout << "/" << p.type2;
+    std::cout << "  (HP " << p.hp
+              << ", Atk " << p.atk
+              << ", Def " << p.def
+              << ", SpA " << p.spAtk
+              << ", SpD " << p.spDef
+              << ", Spe " << p.spd
+              << ")\n";
+}
+
 void printBuild(const PokemonBuild& b) {
     std::cout << "Build #" << b.buildId << " for " << b.name;
     if (!b.form.empty()) std::cout << " [" << b.form << "]";

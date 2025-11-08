@@ -561,7 +561,8 @@ CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj: C:/UF/COP\ 3530/Proje
   C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/bplustree.h \
   C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/build.h \
   C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/pokemon.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/printing.h
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/printing.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokemon.h
 
 CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/builddex.cpp \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h \
@@ -857,10 +858,14 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/algorithm \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/binders.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/algorithmfwd.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/alloc_traits.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocator.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_ios.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_ios.tcc \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.h \
@@ -883,11 +888,8 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_conv.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets.tcc \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.h \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.tcc \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/localefwd.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/memoryfwd.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/move.h \
@@ -897,8 +899,11 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/postypes.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/quoted_string.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/range_access.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/refwrap.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/sstream.tcc \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/std_abs.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algo.h \
@@ -911,6 +916,7 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tempbuf.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
@@ -929,27 +935,27 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdint \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdio \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdlib \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ctime \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cwchar \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cwctype \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/assertions.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/debug.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/exception \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/alloc_traits.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/atomicity.h \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/concurrence.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/new_allocator.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/type_traits.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/fstream \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/initializer_list \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iomanip \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ios \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iosfwd \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/limits \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/locale \
+  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/new \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ostream \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/sstream \
@@ -976,9 +982,7 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
   C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stdint.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -988,35 +992,34 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-
   C:/CLion/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/CLion/mingw64/x86_64-w64-mingw32/include/_timeval.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/ctype.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/errno.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/CLion/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/CLion/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/CLion/mingw64/x86_64-w64-mingw32/include/time.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/CLion/mingw64/x86_64-w64-mingw32/include/wctype.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/build.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/builddex.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/hashmap.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/pokedex.h \
-  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/pokemon.h
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/bplustree.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/build.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/pokemon.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/printing.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/build.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/builddex.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/hashmap.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokedex.h \
+  C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokemon.h
 
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc:
@@ -1052,8 +1055,6 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/alloc_traits.h:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iomanip:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h:
 
@@ -1105,11 +1106,7 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ios_base.h:
 
-C:/CLion/mingw64/x86_64-w64-mingw32/include/time.h:
-
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.h:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/builddex.h:
 
@@ -1136,8 +1133,6 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/postypes.h:
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/streambuf.tcc:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h:
-
-C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/concurrence.h:
 
@@ -1261,8 +1256,6 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/string:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/string_view:
 
-C:/CLion/mingw64/x86_64-w64-mingw32/include/_timeval.h:
-
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/system_error:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/type_traits:
@@ -1282,8 +1275,6 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.h:
 
 C:/CLion/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
@@ -1347,8 +1338,6 @@ C:/CLion/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/build.h:
 
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/locale:
-
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/parse_utils.h:
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokedex.h:
@@ -1365,6 +1354,8 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream:
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/include/printing.h:
 
+C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokemon.h:
+
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/builddex.cpp:
 
 C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/algorithm:
@@ -1375,32 +1366,6 @@ C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uniform_int_d
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/build.h:
 
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/include/pokemon.h:
-
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/pokedex.cpp:
 
 C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/src/main.cpp:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_conv.h:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.tcc:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/quoted_string.h:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ctime:
-
-C:/CLion/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
-
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/builddex.h:
-
-C:/CLion/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
-
-C:/CLion/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
-
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/build.h:
-
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/hashmap.h:
-
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/pokedex.h:
-
-C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/include/pokemon.h:
