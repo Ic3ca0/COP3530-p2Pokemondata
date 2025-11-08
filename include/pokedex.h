@@ -32,4 +32,6 @@ public:
 
     /* File Input */
     bool loadFromCSV(const string& path);
+    void trimWs(string& s);
+    void stripQuotes(string& s);
 };

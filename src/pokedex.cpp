@@ -142,22 +142,55 @@ bool Pokedex::loadFromCSV(const string& path) {
         string cell; // Placeholder for integer values
 
         // Parse through each column
-        getline(ss, cell, ','); p.id = stoi(cell);
-        getline(ss, p.name, ',');
-        getline(ss, p.form, ',');
-        getline(ss, p.type1, ',');
-        getline(ss, p.type2, ',');
-        getline(ss, cell, ','); p.total = stoi(cell);
-        getline(ss, cell, ','); p.hp = stoi(cell);
-        getline(ss, cell, ','); p.atk = stoi(cell);
-        getline(ss, cell, ','); p.def = stoi(cell);
-        getline(ss, cell, ','); p.spAtk = stoi(cell);
-        getline(ss, cell, ','); p.spDef = stoi(cell);
-        getline(ss, cell, ','); p.spd = stoi(cell);
-        getline(ss, cell, ','); p.gen = stoi(cell);
+        // ID
+        getline(ss, cell, ','); trimWs(cell); stripQuotes(cell);
+        p.id = stoi(cell);
+
+        // Name
+        getline(ss, p.name, ','); stripQuotes(p.name); trimWs(p.name);
+
+        // Form - get base form, not megas
+        getline(ss, p.form, ','); stripQuotes(p.form); trimWs(p.form);
+        if (!p.form.empty()) {
+            string dummy;
+            while (getline(ss, dummy, ',')) {}
+            continue;
+        }
+
+        // Type1, Type2
+        getline(ss, p.type1, ','); trimWs(p.type1); stripQuotes(p.type1);
+        getline(ss, p.type2, ','); trimWs(p.type2); stripQuotes(p.type2);
+        // Total
+        getline(ss, cell, ','); trimWs(cell); p.total = stoi(cell);
+        // Stats
+        getline(ss, cell, ','); trimWs(cell); p.hp = stoi(cell);
+        getline(ss, cell, ','); trimWs(cell); p.atk = stoi(cell);
+        getline(ss, cell, ','); trimWs(cell); p.def = stoi(cell);
+        getline(ss, cell, ','); trimWs(cell); p.spAtk = stoi(cell);
+        getline(ss, cell, ','); trimWs(cell); p.spDef = stoi(cell);
+        getline(ss, cell, ','); trimWs(cell); p.spd = stoi(cell);
+        // Generation - watch for trail
+        getline(ss, cell, ','); trimWs(cell);
+        if (!cell.empty() && cell.back() == '\r') cell.pop_back();
+        p.gen = stoi(cell);
 
         upsert(p);
     }
     file.close();
     return true;
+}
+void Pokedex::trimWs(string& s) {
+    // Trailing
+    while (!s.empty() && 
+    (s.back() == ' ' || s.back() == '\t' || s.back() == '\r' || 
+    s.back() == '\n')) s.pop_back();
+
+    // Leading
+    size_t i = 0;
+    while (i < s.size() && (s[i] == ' ' || s[i] == '\t')) i++;
+    if (i) s.erase(0, i);
+}
+void Pokedex::stripQuotes(string& s) {
+    if (s.size() >= 2 && s.front() == '"' && s.back() == '"')
+        s = s.substr(1, s.size() - 2);
 }
