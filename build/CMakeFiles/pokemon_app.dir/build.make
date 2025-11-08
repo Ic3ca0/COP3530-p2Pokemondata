@@ -71,94 +71,10 @@ include CMakeFiles/pokemon_app.dir/flags.make
 CMakeFiles/pokemon_app.dir/codegen:
 .PHONY : CMakeFiles/pokemon_app.dir/codegen
 
-CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/build.cpp
-CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj -MF CMakeFiles\pokemon_app.dir\bplustree\src\build.cpp.obj.d -o CMakeFiles\pokemon_app.dir\bplustree\src\build.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\build.cpp"
-
-CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\build.cpp" > CMakeFiles\pokemon_app.dir\bplustree\src\build.cpp.i
-
-CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\build.cpp" -o CMakeFiles\pokemon_app.dir\bplustree\src\build.cpp.s
-
-CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/parse_utils.cpp
-CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj -MF CMakeFiles\pokemon_app.dir\bplustree\src\parse_utils.cpp.obj.d -o CMakeFiles\pokemon_app.dir\bplustree\src\parse_utils.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\parse_utils.cpp"
-
-CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\parse_utils.cpp" > CMakeFiles\pokemon_app.dir\bplustree\src\parse_utils.cpp.i
-
-CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\parse_utils.cpp" -o CMakeFiles\pokemon_app.dir\bplustree\src\parse_utils.cpp.s
-
-CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/pokemon.cpp
-CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj -MF CMakeFiles\pokemon_app.dir\bplustree\src\pokemon.cpp.obj.d -o CMakeFiles\pokemon_app.dir\bplustree\src\pokemon.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\pokemon.cpp"
-
-CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\pokemon.cpp" > CMakeFiles\pokemon_app.dir\bplustree\src\pokemon.cpp.i
-
-CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\pokemon.cpp" -o CMakeFiles\pokemon_app.dir\bplustree\src\pokemon.cpp.s
-
-CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/printing.cpp
-CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj -MF CMakeFiles\pokemon_app.dir\bplustree\src\printing.cpp.obj.d -o CMakeFiles\pokemon_app.dir\bplustree\src\printing.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\printing.cpp"
-
-CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\printing.cpp" > CMakeFiles\pokemon_app.dir\bplustree\src\printing.cpp.i
-
-CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\bplustree\src\printing.cpp" -o CMakeFiles\pokemon_app.dir\bplustree\src\printing.cpp.s
-
-CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/pokedex.cpp
-CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj -MF CMakeFiles\pokemon_app.dir\hashmap\src\pokedex.cpp.obj.d -o CMakeFiles\pokemon_app.dir\hashmap\src\pokedex.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\pokedex.cpp"
-
-CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\pokedex.cpp" > CMakeFiles\pokemon_app.dir\hashmap\src\pokedex.cpp.i
-
-CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\pokedex.cpp" -o CMakeFiles\pokemon_app.dir\hashmap\src\pokedex.cpp.s
-
-CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
-CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/builddex.cpp
-CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj -MF CMakeFiles\pokemon_app.dir\hashmap\src\builddex.cpp.obj.d -o CMakeFiles\pokemon_app.dir\hashmap\src\builddex.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\builddex.cpp"
-
-CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.i"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\builddex.cpp" > CMakeFiles\pokemon_app.dir\hashmap\src\builddex.cpp.i
-
-CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.s"
-	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\hashmap\src\builddex.cpp" -o CMakeFiles\pokemon_app.dir\hashmap\src\builddex.cpp.s
-
 CMakeFiles/pokemon_app.dir/src/main.cpp.obj: CMakeFiles/pokemon_app.dir/flags.make
 CMakeFiles/pokemon_app.dir/src/main.cpp.obj: C:/UF/COP\ 3530/Projects/2/COP3530-p2Pokemondata/src/main.cpp
 CMakeFiles/pokemon_app.dir/src/main.cpp.obj: CMakeFiles/pokemon_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
 	C:\CLion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pokemon_app.dir/src/main.cpp.obj -MF CMakeFiles\pokemon_app.dir\src\main.cpp.obj.d -o CMakeFiles\pokemon_app.dir\src\main.cpp.obj -c "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\src\main.cpp"
 
 CMakeFiles/pokemon_app.dir/src/main.cpp.i: cmake_force
@@ -171,29 +87,17 @@ CMakeFiles/pokemon_app.dir/src/main.cpp.s: cmake_force
 
 # Object files for target pokemon_app
 pokemon_app_OBJECTS = \
-"CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj" \
-"CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj" \
 "CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
 
 # External object files for target pokemon_app
 pokemon_app_EXTERNAL_OBJECTS =
 
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj
-pokemon_app.exe: CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/src/main.cpp.obj
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/build.make
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/linkLibs.rsp
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/objects1.rsp
 pokemon_app.exe: CMakeFiles/pokemon_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pokemon_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pokemon_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pokemon_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

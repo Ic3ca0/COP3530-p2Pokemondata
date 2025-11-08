@@ -1,42 +1,6 @@
 [
 {
   "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\bplustree\\src\\build.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\bplustree\\src\\build.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/build.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\bplustree\\src\\parse_utils.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\bplustree\\src\\parse_utils.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/parse_utils.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\bplustree\\src\\pokemon.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\bplustree\\src\\pokemon.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/pokemon.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\bplustree\\src\\printing.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\bplustree\\src\\printing.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/bplustree/src/printing.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\hashmap\\src\\pokedex.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\hashmap\\src\\pokedex.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/pokedex.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
-  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\hashmap\\src\\builddex.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\hashmap\\src\\builddex.cpp\"",
-  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/hashmap/src/builddex.cpp",
-  "output": "CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj"
-},
-{
-  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
   "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\src\\main.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\src\\main.cpp\"",
   "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/src/main.cpp",
   "output": "CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
