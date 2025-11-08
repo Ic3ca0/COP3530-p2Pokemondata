@@ -1,9 +1,12 @@
 #include <iostream>
 #include <limits>
 
-#include "pokemon.h"
-#include "build.h"
-#include "printing.h"
+#include "../bplustree/include/pokemon.h"
+#include "../bplustree/include/build.h"
+#include "../bplustree/include/printing.h"
+
+#include "../hashmap/include/pokedex.h"
+#include "../hashmap/include/builddex.h"
 
 int main() {
     try {

@@ -128,29 +128,149 @@ pokemon_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/build
 .PHONY : pokemon_app/fast
 
-src/builddex.obj: src/builddex.cpp.obj
-.PHONY : src/builddex.obj
+bplustree/src/build.obj: bplustree/src/build.cpp.obj
+.PHONY : bplustree/src/build.obj
 
 # target to build an object file
-src/builddex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.obj
-.PHONY : src/builddex.cpp.obj
+bplustree/src/build.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.obj
+.PHONY : bplustree/src/build.cpp.obj
 
-src/builddex.i: src/builddex.cpp.i
-.PHONY : src/builddex.i
+bplustree/src/build.i: bplustree/src/build.cpp.i
+.PHONY : bplustree/src/build.i
 
 # target to preprocess a source file
-src/builddex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.i
-.PHONY : src/builddex.cpp.i
+bplustree/src/build.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.i
+.PHONY : bplustree/src/build.cpp.i
 
-src/builddex.s: src/builddex.cpp.s
-.PHONY : src/builddex.s
+bplustree/src/build.s: bplustree/src/build.cpp.s
+.PHONY : bplustree/src/build.s
 
 # target to generate assembly for a file
-src/builddex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.s
-.PHONY : src/builddex.cpp.s
+bplustree/src/build.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/build.cpp.s
+.PHONY : bplustree/src/build.cpp.s
+
+bplustree/src/parse_utils.obj: bplustree/src/parse_utils.cpp.obj
+.PHONY : bplustree/src/parse_utils.obj
+
+# target to build an object file
+bplustree/src/parse_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.obj
+.PHONY : bplustree/src/parse_utils.cpp.obj
+
+bplustree/src/parse_utils.i: bplustree/src/parse_utils.cpp.i
+.PHONY : bplustree/src/parse_utils.i
+
+# target to preprocess a source file
+bplustree/src/parse_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.i
+.PHONY : bplustree/src/parse_utils.cpp.i
+
+bplustree/src/parse_utils.s: bplustree/src/parse_utils.cpp.s
+.PHONY : bplustree/src/parse_utils.s
+
+# target to generate assembly for a file
+bplustree/src/parse_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/parse_utils.cpp.s
+.PHONY : bplustree/src/parse_utils.cpp.s
+
+bplustree/src/pokemon.obj: bplustree/src/pokemon.cpp.obj
+.PHONY : bplustree/src/pokemon.obj
+
+# target to build an object file
+bplustree/src/pokemon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.obj
+.PHONY : bplustree/src/pokemon.cpp.obj
+
+bplustree/src/pokemon.i: bplustree/src/pokemon.cpp.i
+.PHONY : bplustree/src/pokemon.i
+
+# target to preprocess a source file
+bplustree/src/pokemon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.i
+.PHONY : bplustree/src/pokemon.cpp.i
+
+bplustree/src/pokemon.s: bplustree/src/pokemon.cpp.s
+.PHONY : bplustree/src/pokemon.s
+
+# target to generate assembly for a file
+bplustree/src/pokemon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/pokemon.cpp.s
+.PHONY : bplustree/src/pokemon.cpp.s
+
+bplustree/src/printing.obj: bplustree/src/printing.cpp.obj
+.PHONY : bplustree/src/printing.obj
+
+# target to build an object file
+bplustree/src/printing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.obj
+.PHONY : bplustree/src/printing.cpp.obj
+
+bplustree/src/printing.i: bplustree/src/printing.cpp.i
+.PHONY : bplustree/src/printing.i
+
+# target to preprocess a source file
+bplustree/src/printing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.i
+.PHONY : bplustree/src/printing.cpp.i
+
+bplustree/src/printing.s: bplustree/src/printing.cpp.s
+.PHONY : bplustree/src/printing.s
+
+# target to generate assembly for a file
+bplustree/src/printing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/bplustree/src/printing.cpp.s
+.PHONY : bplustree/src/printing.cpp.s
+
+hashmap/src/builddex.obj: hashmap/src/builddex.cpp.obj
+.PHONY : hashmap/src/builddex.obj
+
+# target to build an object file
+hashmap/src/builddex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.obj
+.PHONY : hashmap/src/builddex.cpp.obj
+
+hashmap/src/builddex.i: hashmap/src/builddex.cpp.i
+.PHONY : hashmap/src/builddex.i
+
+# target to preprocess a source file
+hashmap/src/builddex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.i
+.PHONY : hashmap/src/builddex.cpp.i
+
+hashmap/src/builddex.s: hashmap/src/builddex.cpp.s
+.PHONY : hashmap/src/builddex.s
+
+# target to generate assembly for a file
+hashmap/src/builddex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/builddex.cpp.s
+.PHONY : hashmap/src/builddex.cpp.s
+
+hashmap/src/pokedex.obj: hashmap/src/pokedex.cpp.obj
+.PHONY : hashmap/src/pokedex.obj
+
+# target to build an object file
+hashmap/src/pokedex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.obj
+.PHONY : hashmap/src/pokedex.cpp.obj
+
+hashmap/src/pokedex.i: hashmap/src/pokedex.cpp.i
+.PHONY : hashmap/src/pokedex.i
+
+# target to preprocess a source file
+hashmap/src/pokedex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.i
+.PHONY : hashmap/src/pokedex.cpp.i
+
+hashmap/src/pokedex.s: hashmap/src/pokedex.cpp.s
+.PHONY : hashmap/src/pokedex.s
+
+# target to generate assembly for a file
+hashmap/src/pokedex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/hashmap/src/pokedex.cpp.s
+.PHONY : hashmap/src/pokedex.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -176,30 +296,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/pokedex.obj: src/pokedex.cpp.obj
-.PHONY : src/pokedex.obj
-
-# target to build an object file
-src/pokedex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj
-.PHONY : src/pokedex.cpp.obj
-
-src/pokedex.i: src/pokedex.cpp.i
-.PHONY : src/pokedex.i
-
-# target to preprocess a source file
-src/pokedex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.i
-.PHONY : src/pokedex.cpp.i
-
-src/pokedex.s: src/pokedex.cpp.s
-.PHONY : src/pokedex.s
-
-# target to generate assembly for a file
-src/pokedex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/pokedex.cpp.s
-.PHONY : src/pokedex.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,15 +305,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pokemon_app
-	@echo ... src/builddex.obj
-	@echo ... src/builddex.i
-	@echo ... src/builddex.s
+	@echo ... bplustree/src/build.obj
+	@echo ... bplustree/src/build.i
+	@echo ... bplustree/src/build.s
+	@echo ... bplustree/src/parse_utils.obj
+	@echo ... bplustree/src/parse_utils.i
+	@echo ... bplustree/src/parse_utils.s
+	@echo ... bplustree/src/pokemon.obj
+	@echo ... bplustree/src/pokemon.i
+	@echo ... bplustree/src/pokemon.s
+	@echo ... bplustree/src/printing.obj
+	@echo ... bplustree/src/printing.i
+	@echo ... bplustree/src/printing.s
+	@echo ... hashmap/src/builddex.obj
+	@echo ... hashmap/src/builddex.i
+	@echo ... hashmap/src/builddex.s
+	@echo ... hashmap/src/pokedex.obj
+	@echo ... hashmap/src/pokedex.i
+	@echo ... hashmap/src/pokedex.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/pokedex.obj
-	@echo ... src/pokedex.i
-	@echo ... src/pokedex.s
 .PHONY : help
 
 

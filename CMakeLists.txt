@@ -5,9 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(pokemon_app
+    # B+-Tree
+    bplustree/src/build.cpp
+    bplustree/src/parse_utils.cpp
+    bplustree/src/pokemon.cpp
+    bplustree/src/printing.cpp
+    # HashMap
+    hashmap/src/pokedex.cpp
+    hashmap/src/builddex.cpp
+    # Src
     src/main.cpp
-    src/pokedex.cpp
-    src/builddex.cpp
 )
 
 if(MSVC)

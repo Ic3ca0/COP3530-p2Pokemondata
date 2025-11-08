@@ -1,5 +1,5 @@
-#include "pokemon.h"
-#include "parse_utils.h"
+#include "../include/pokemon.h"
+#include "../include/parse_utils.h"
 
 #include <fstream>
 #include <sstream>
