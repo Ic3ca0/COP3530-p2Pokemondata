@@ -84,12 +84,12 @@ clean: CMakeFiles/pokemon_app.dir/clean
 CMakeFiles/pokemon_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=1,2,3 "Built target pokemon_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=1,2,3,4 "Built target pokemon_app"
 .PHONY : CMakeFiles/pokemon_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pokemon_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pokemon_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" 0
 .PHONY : CMakeFiles/pokemon_app.dir/rule
@@ -101,7 +101,7 @@ pokemon_app: CMakeFiles/pokemon_app.dir/rule
 # codegen rule for target.
 CMakeFiles/pokemon_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target pokemon_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\UF\COP 3530\Projects\2\COP3530-p2Pokemondata\build\CMakeFiles" --progress-num=1,2,3,4 "Finished codegen for target pokemon_app"
 .PHONY : CMakeFiles/pokemon_app.dir/codegen
 
 # clean rule for target.

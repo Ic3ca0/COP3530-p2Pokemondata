@@ -10,5 +10,11 @@
   "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\src\\pokedex.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\src\\pokedex.cpp\"",
   "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/src/pokedex.cpp",
   "output": "CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj"
+},
+{
+  "directory": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/build",
+  "command": "C:\\CLion\\mingw64\\bin\\g++.exe   -g -std=gnu++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\pokemon_app.dir\\src\\builddex.cpp.obj -c \"C:\\UF\\COP 3530\\Projects\\2\\COP3530-p2Pokemondata\\src\\builddex.cpp\"",
+  "file": "C:/UF/COP 3530/Projects/2/COP3530-p2Pokemondata/src/builddex.cpp",
+  "output": "CMakeFiles/pokemon_app.dir/src/builddex.cpp.obj"
 }
 ]

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pokemon_app.dir/src/builddex.cpp.obj"
+  "CMakeFiles/pokemon_app.dir/src/builddex.cpp.obj.d"
   "CMakeFiles/pokemon_app.dir/src/main.cpp.obj"
   "CMakeFiles/pokemon_app.dir/src/main.cpp.obj.d"
   "CMakeFiles/pokemon_app.dir/src/pokedex.cpp.obj"

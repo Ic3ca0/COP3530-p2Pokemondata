@@ -145,10 +145,8 @@ bool Pokedex::loadFromCSV(const string& path) {
         // ID
         getline(ss, cell, ','); trimWs(cell); stripQuotes(cell);
         p.id = stoi(cell);
-
         // Name
         getline(ss, p.name, ','); stripQuotes(p.name); trimWs(p.name);
-
         // Form - get base form, not megas
         getline(ss, p.form, ','); stripQuotes(p.form); trimWs(p.form);
         if (!p.form.empty()) {
@@ -156,7 +154,6 @@ bool Pokedex::loadFromCSV(const string& path) {
             while (getline(ss, dummy, ',')) {}
             continue;
         }
-
         // Type1, Type2
         getline(ss, p.type1, ','); trimWs(p.type1); stripQuotes(p.type1);
         getline(ss, p.type2, ','); trimWs(p.type2); stripQuotes(p.type2);

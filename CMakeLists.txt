@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(pokemon_app
     src/main.cpp
     src/pokedex.cpp
+    src/builddex.cpp
 )
 
 if(MSVC)

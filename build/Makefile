@@ -128,6 +128,30 @@ pokemon_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/build
 .PHONY : pokemon_app/fast
 
+src/builddex.obj: src/builddex.cpp.obj
+.PHONY : src/builddex.obj
+
+# target to build an object file
+src/builddex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.obj
+.PHONY : src/builddex.cpp.obj
+
+src/builddex.i: src/builddex.cpp.i
+.PHONY : src/builddex.i
+
+# target to preprocess a source file
+src/builddex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.i
+.PHONY : src/builddex.cpp.i
+
+src/builddex.s: src/builddex.cpp.s
+.PHONY : src/builddex.s
+
+# target to generate assembly for a file
+src/builddex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pokemon_app.dir\build.make CMakeFiles/pokemon_app.dir/src/builddex.cpp.s
+.PHONY : src/builddex.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pokemon_app
+	@echo ... src/builddex.obj
+	@echo ... src/builddex.i
+	@echo ... src/builddex.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
