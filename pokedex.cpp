@@ -183,7 +183,7 @@ bool Pokedex::loadFromCSV(const std::string& path) {
     return true;
 }
 
-// ===== BuildDex =====
+//BuildDex
 
 std::string BuildDex::lower(std::string s) const {
     for (std::size_t i = 0; i < s.size(); i++)
