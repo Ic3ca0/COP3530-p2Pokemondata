@@ -5,6 +5,9 @@
 #include <iostream>
 #include <string>
 
+// used stackoverflow to learn chrono 
+//https://stackoverflow.com/questions/36751133/proper-method-of-using-stdchrono
+
 template<typename Func>
 auto timedCall(const std::string& label, Func&& f) -> decltype(f()) {
     auto start  = std::chrono::high_resolution_clock::now();
