@@ -11,3 +11,4 @@ Requirements:
 
 Usage:
  - all usage can be done through the command line
+ - make sure to put both CSV files in cmake_build_debug file if using clion
