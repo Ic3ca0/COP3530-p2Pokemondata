@@ -5,6 +5,10 @@
 #include <memory>
 #include <cstddef>
 
+
+// b+ tree basics with Douglas Fisher
+// in class slides
+// https://www.geeksforgeeks.org/cpp/b-tree-implementation-in-cpp/
 template<typename K, typename V, std::size_t ORDER = 4>
 class BPlusTree {
     static_assert(ORDER >= 3, "ORDER must be at least 3");
