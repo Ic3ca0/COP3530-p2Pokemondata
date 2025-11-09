@@ -1,0 +1,13 @@
+Introduction:
+This is a Pokedex index search tool that allows users to find pokemon and specific competetive builds
+
+Overview:
+We use two different data structures one being B+ tree and the other being a Hash Map
+
+Requirements:
+- C++20
+- compatable with CLion / GCC / Clang / Visual Studio
+- No outside dependencies were used beyond the standard library
+
+Usage:
+ - all usage can be done through the command line
