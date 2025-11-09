@@ -8,6 +8,8 @@
 using std::string;
 using std::vector;
 
+//https://stackoverflow.com/questions/3051486/search-a-value-for-a-given-key-in-a-hashmap
+
 std::string Pokedex::lower(std::string s) const {
     for (std::size_t i = 0; i < s.size(); i++)
         s[i] = static_cast<char>(std::tolower(static_cast<unsigned char>(s[i])));
