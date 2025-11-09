@@ -5,6 +5,7 @@
 #include <utility>
 #include <functional>
 
+//https://www.geeksforgeeks.org/cpp/how-to-use-hashmap-in-cpp/
 template<typename K, typename V>
 class HashMap {
     using entry = std::pair<K, V>;
@@ -77,6 +78,7 @@ public:
         return false;
     }
 
+    // https://stackoverflow.com/questions/3578083/what-is-the-best-way-to-use-a-hashmap-in-c
     void rehash(int newBucketCount) {
         if (newBucketCount < 1) newBucketCount = 1;
         std::vector<std::vector<entry>> newBuckets(newBucketCount);
